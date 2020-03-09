@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<head>
+	<title>Mendeleev's Complete Periodic Table</title>
+	<link rel="icon" href="https://jiricodes.com/images/icons/jiricodes-icon.ico">
+	<style>
+		body {
+			background-color: black;
+		}
+
+		.header_bar {
+			height: 100px;
+		}
+
+		.periodic_table {
+			position: relative;
+			height: 800px;
+			margin-right: -1px;
+			max-width: 1440px;
+			min-width: 1000px;
+		}
+
+		.row {
+			height: 10%;
+			clear: both;
+		}
+
+		.cell {
+			float: left;
+			width: 5.55%;
+			height: 100%;
+			position: relative;
+		}
+
+		.elem {
+			position: absolute;
+			top: 1px;
+			left: 1px;
+			bottom: 2px;
+			right: 2px;
+			box-sizing: border-box;
+			box-shadow: 1px 1px 4px white;
+			background-color: blanchedalmond;
+			border: solid 1px whitesmoke;
+			text-align: center;
+		}
+
+		.cell:hover .elem {
+			box-shadow: 1px 1px 5px hotpink;
+			border-color: hotpink;
+			background-color: rgb(255, 159, 207);
+		}
+		.atom, .weight {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 10px;
+			position: absolute;
+			color: black;
+		}
+
+		.atom {
+			bottom: 4px;
+			left: 3px;
+		}
+
+		.weight {
+			right: 1px;
+			bottom: 4px;
+		}
+
+		.symbol {
+			font-size: 30px;
+			position: absolute;
+			top: 25%;
+			left: 0px;
+			right: 0px;
+			margin-top: -4;
+			height: 30px;
+			font-weight: bold;
+			font-family: Arial, Helvetica, sans-serif;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<div class="header_bar">
+		<img src="https://jiricodes.com/images/jiricodes.png" height="100%" width="auto"></img>
+	</div>
+	<div class="periodic_table">
+		<div class="row">
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">H</div>
+					<div class="atom">1</div>
+					<div class="weight">1.008</div>
+				</div>
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">He</div>
+					<div class="atom">2</div>
+					<div class="weight">4.0026</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Li</div>
+					<div class="atom">3</div>
+					<div class="weight">6.94</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Be</div>
+					<div class="atom">4</div>
+					<div class="weight">9.0122</div>
+				</div>
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">B</div>
+					<div class="atom">5</div>
+					<div class="weight">10.81</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">C</div>
+					<div class="atom">6</div>
+					<div class="weight">12.011</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">N</div>
+					<div class="atom">7</div>
+					<div class="weight">14.007</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">O</div>
+					<div class="atom">8</div>
+					<div class="weight">15.999</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">F</div>
+					<div class="atom">9</div>
+					<div class="weight">18.998</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Ne</div>
+					<div class="atom">10</div>
+					<div class="weight">20.180</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Na</div>
+					<div class="atom">11</div>
+					<div class="weight">22.990</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Mg</div>
+					<div class="atom">12</div>
+					<div class="weight">24.305</div>
+				</div>
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Al</div>
+					<div class="atom">13</div>
+					<div class="weight">26.982</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Si</div>
+					<div class="atom">14</div>
+					<div class="weight">28.085</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">P</div>
+					<div class="atom">15</div>
+					<div class="weight">30.974</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">S</div>
+					<div class="atom">16</div>
+					<div class="weight">32.06</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">F</div>
+					<div class="atom">17</div>
+					<div class="weight">35.45</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Ne</div>
+					<div class="atom">18</div>
+					<div class="weight">39.948</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">K</div>
+					<div class="atom">19</div>
+					<div class="weight">39.098</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Ca</div>
+					<div class="atom">20</div>
+					<div class="weight">40.078</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Sc</div>
+					<div class="atom">21</div>
+					<div class="weight">44.456</div>
+				</div>
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Al</div>
+					<div class="atom">13</div>
+					<div class="weight">26.982</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Si</div>
+					<div class="atom">14</div>
+					<div class="weight">28.085</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">P</div>
+					<div class="atom">15</div>
+					<div class="weight">30.974</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">S</div>
+					<div class="atom">16</div>
+					<div class="weight">32.06</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">F</div>
+					<div class="atom">17</div>
+					<div class="weight">35.45</div>
+				</div>
+			</div>
+			<div class="cell">
+				<div class="elem">
+					<div class="symbol">Ne</div>
+					<div class="atom">18</div>
+					<div class="weight">39.948</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		</div>
+		<div class="row">
+		</div>
+		<div class="row">
+		</div>
+		<div class="row">
+		</div>
+		<div class="row">
+		</div>
+		<div class="row">
+		</div>
+	</div>
+</body>
