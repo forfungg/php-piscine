@@ -1,7 +1,6 @@
 #!/usr/bin/php
 <?php
-$a = "";
-$an = ord($a);
-
-print($an);
+include("ex08/ft_is_sort.php");
+$a = array();
+print(ft_is_sort($a));
 ?>
